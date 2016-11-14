@@ -8,8 +8,6 @@
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8 */;
-/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
-/*!40103 SET TIME_ZONE='+00:00' */;
 /*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
@@ -39,7 +37,6 @@ LOCK TABLES `features` WRITE;
 INSERT INTO `features` VALUES (1,'ระบุเวลาไปทานได้','สามารถระบุเวลาล่วงหน้าในการไปรัปทานอาหารได้'),(2,'ดูรายละเอียดรายการอาหารล่วงหน้าได้','สามารถดูรายละเอียดรายการอาหารล่วงหน้า เพื่อทำให้สะดวกในการสั่งอาหารล่วงหน้าได้'),(3,'สั่งล่วงหน้าได้','สามารถสั่งอาหารล่วงหน้าเพื่อไม่ให้เป็การเสียเวลาได้'),(4,'ลูกค้าทุกคนต้องได้รับอาหารที่ตัวเองสั่งอย่างถูกต้อง','อาหารที่ลูกได้รับจะต้องถูกต้องตรงตามรายการที่ลูกค้าสั่ง'),(5,'ให้พนักงานใช้งานได้หลายคน','อนุญาติให้พนักงานสามารถเข้าใช้งานได้หลายคน'),(6,'สามารถเพิ่มข้อมูลลงใน Database ได้แบบ Flexible','สามารถเพิ่มข้อมูลลงใน Database ได้แบบหยืดหยุ่น สะดวก และง่าย'),(7,'แยกราคาค่าอาหารรายบุคคล','คำนวณราคาค่าอาหารแยกเป็นรายบุคคล');
 /*!40000 ALTER TABLE `features` ENABLE KEYS */;
 UNLOCK TABLES;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
@@ -49,4 +46,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-11-14 19:19:29
+-- Dump completed on 2016-11-14 19:31:11

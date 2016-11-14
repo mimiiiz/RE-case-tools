@@ -8,8 +8,6 @@
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8 */;
-/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
-/*!40103 SET TIME_ZONE='+00:00' */;
 /*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
@@ -39,7 +37,6 @@ LOCK TABLES `problems` WRITE;
 INSERT INTO `problems` VALUES (1,'รอคิวนาน',NULL),(2,'ในเวลาเร่งด่วนมักเกิดความผิดพลาดและล่าช้าในการสั่งอาหาร',NULL),(3,'ไม่รู้เมนูล่วงหน้า',NULL),(4,'มีเวลาทานอาหารน้อย',NULL),(5,'รับออร์เดอร์ผิด',NULL),(6,'ต้องให้พนักงานใช้งานได้หลายคน',NULL),(7,'Database ไม่รองรับการเพิ่มอาหารรูปแบบใหม่ๆ',NULL),(8,'ไม่รู้ราคารวมค่าอาหารรายบุคคล',NULL);
 /*!40000 ALTER TABLE `problems` ENABLE KEYS */;
 UNLOCK TABLES;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
@@ -49,4 +46,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-11-14 19:19:30
+-- Dump completed on 2016-11-14 19:31:11
